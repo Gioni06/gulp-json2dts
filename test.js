@@ -14,7 +14,7 @@ test.cb('It should convert json schema files to typescript interfaces', t => {
 		}
 		input = data;
 
-		fs.readFile(path.join(__dirname, './fixtures/example.interface.ts'), 'utf8', function (err, data) {
+		fs.readFile(path.join(__dirname, './fixtures/example.d.ts'), 'utf8', function (err, data) {
 			if (err) {
 				t.fail();
 			}
