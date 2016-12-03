@@ -1,0 +1,34 @@
+{
+  "name": "gulp-json2dts",
+  "version": "0.1.0",
+  "description": "Converts json files to typescript interfaces",
+  "license": "MIT",
+  "repository": "Gioni06/gulp-json2dts",
+  "author": {
+    "name": "Jonas Duri",
+    "email": "jonas.duri@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin"
+  ],
+  "dependencies": {
+    "generate-schema": "2.3.1",
+    "gulp": "3.9.1",
+    "gulp-util": "3.0.7",
+    "json-schema-to-typescript": "3.1.0",
+    "through2": "2.0.1"
+  },
+  "devDependencies": {
+    "ava": "0.14.0",
+    "xo": "0.14.0"
+  }
+}
