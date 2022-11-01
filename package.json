@@ -22,7 +22,7 @@
   ],
   "dependencies": {
     "generate-schema": "2.3.1",
-    "gulp": "3.9.1",
+    "gulp": "4.0.2",
     "gulp-util": "^3.0.8",
     "json-schema-to-typescript": "^7.1.0",
     "through2": "^3.0.1"
